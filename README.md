@@ -169,6 +169,7 @@ sudo docker exec miner miner info summary
 
 ```
 
+```
 ********************
 Miner General Info
 ********************
@@ -220,3 +221,5 @@ Miner log errors
 ***** General errors             *****
 
 : 
+
+```
