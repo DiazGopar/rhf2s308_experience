@@ -160,3 +160,63 @@ sudo docker exec miner tail -f /var/data/log/console.log | grep --text witness |
 
 
 ```
+
+## Status of miner or Miner General Info
+
+```bash 
+
+sudo docker exec miner miner info summary
+
+```
+
+********************
+Miner General Info
+********************
+
++-------------+------------------------------------------------------------------------------------+
+|    name     |                                       result                                       |
++-------------+------------------------------------------------------------------------------------+
+| miner name  |                                deep-charcoal-cobra                                 |
+|mac addresses|                                wwan0 : E651A9B618FE                                |
+|             |                               docker0 : 02420038D51B                               |
+|             |                                eth0 : F04CD501BC03                                 |
+|             |                                wlan0 : 704A0E6593C6                                |
+|             |                                 lo : 000000000000                                  |
+|  block age  |                                        112                                         |
+|    epoch    |                                       32695                                        |
+|   height    |                                      1232499                                       |
+| sync height |                                      1232499                                       |
+|   uptime    |                      0 Days, 0 Hours, 53 Minutes, 25 Seconds                       |
+|peer book siz|                                       20898                                        |
+|firmware vers|           cat: can't open '/etc/lsb_release': No such file or directory            |
+|gateway detai|Gateway location: 631426055126266367Owner address: /p2p/1342GXoRx4GjcguX5KZ9qj8XegnL|
++-------------+------------------------------------------------------------------------------------+
+
+
+********************
+Miner P2P Info
+********************
+
++---------+---------+
+|  name   | result  |
++---------+---------+
+|connected|   yes   |
+|dialable |   yes   |
+|nat_type |symmetric|
+| height  | 1232500 |
++---------+---------+
+
+
+********************
+Miner log errors
+********************
+
+***** Transaction related errors *****
+
+: 
+***** POC related errors         *****
+
+: 
+***** General errors             *****
+
+: 
