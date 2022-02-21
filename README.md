@@ -223,3 +223,21 @@ Miner log errors
 : 
 
 ```
+
+
+sudo docker exec miner miner info height
+
+
+zram install ??
+https://pimylifeup.com/raspberry-pi-zram/
+
+
+sudo docker exec miner miner versions
+
+
+lsblk
+
+df -h
+
+du -h /opt/helium/miner_data
+
