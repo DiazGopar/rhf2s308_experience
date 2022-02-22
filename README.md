@@ -1,3 +1,7 @@
+# Forked from https://github.com/cuddlyconcretepangolin/rhf2s308_experience
+# credits to him
+
+
 # rhf2s308_experiences
 Experiences dealing with rhf2s308 for helium mining. 
 
