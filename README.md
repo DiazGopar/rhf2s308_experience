@@ -182,10 +182,10 @@ Miner General Info
 |    name     |                                       result                                       |
 +-------------+------------------------------------------------------------------------------------+
 | miner name  |                                deep-charcoal-cobra                                 |
-|mac addresses|                                wwan0 : E651A9B618FE                                |
-|             |                               docker0 : 02420038D51B                               |
-|             |                                eth0 : F04CD501BC03                                 |
-|             |                                wlan0 : 704A0E6593C6                                |
+|mac addresses|                                wwan0 : XXXXXXXXXXXX                                |
+|             |                               docker0 : XXXXXXXXXXXX                               |
+|             |                                eth0 : XXXXXXXXXXXX                                 |
+|             |                                wlan0 : XXXXXXXXXXXX                                |
 |             |                                 lo : 000000000000                                  |
 |  block age  |                                        112                                         |
 |    epoch    |                                       32695                                        |
