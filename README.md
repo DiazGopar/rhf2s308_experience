@@ -227,7 +227,7 @@ Miner log errors
 : 
 
 ```
-##Checking the P2P Network
+## Checking the P2P Network
 ```
 docker exec miner miner peer book -s
 
