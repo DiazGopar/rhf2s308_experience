@@ -275,6 +275,8 @@ delete /var/lib/zerotier-one/identity .public and /var/lib/zerotier-one/identity
 for new address
 
 
+## 
+
 sudo docker exec miner miner info height
 
 
