@@ -255,6 +255,25 @@ docker exec miner miner peer book -s
 +--------------------------+-----------------------------+---------------------------------------------------------+------------------------------+
 ```
 
+## ZeroTier Install
+
+follow this guide https://mangolassi.it/topic/16204/how-to-install-zerotier-on-a-raspberry-pi/5
+
+```
+curl - https://install.zerotier.com/ sudo bash
+
+sudo zerotier-cli join
+```
+If error:
+Error connecting to the Zero Tier service:
+Please check that the service is running and that TCP port 9993 can be contacted
+via 127.0.0.1.
+```
+sudo iptables -D POSTROUTING -t nat -j MASQUERADE
+delete /var/lib/zerotier-one/identity .public and /var/lib/zerotier-one/identity.secret
+```
+for new address
+
 
 sudo docker exec miner miner info height
 
