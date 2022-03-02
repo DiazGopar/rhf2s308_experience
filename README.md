@@ -262,7 +262,7 @@ follow this guide https://mangolassi.it/topic/16204/how-to-install-zerotier-on-a
 ```
 curl - https://install.zerotier.com/ sudo bash
 
-sudo zerotier-cli join
+sudo zerotier-cli join xxxxx
 ```
 If error:
 Error connecting to the Zero Tier service:
