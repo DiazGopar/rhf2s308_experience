@@ -293,3 +293,17 @@ df -h
 
 du -h /opt/helium/miner_data
 
+
+Cpied from discord
+
+I think I traced the reboot issue down!
+
+Linked it to a RisingHF service called abnormal_det that I'm theorizing tries to reboot the miner if eth0 is plugged in and it can't get an IP in 2 mins
+
+So to buy some time you can run the following to disable that service.
+
+`sudo systemctl stop abnormal_det`
+`sudo systemctl disable abnormal_det`
+`sudo systemctl mask abnormal_det`
+
+My eth0 is still not working properly. Luckily I can force wlan0 to client mode (https://github.com/cuddlyconcretepangolin/rhf2s308_experience) and use it that way. Also gives you time to enable ssh for later
