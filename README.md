@@ -317,3 +317,8 @@ https://github.com/inigoflores/helium-miner-log-analyzer
 ## Another way to make a snapshot
 
 https://www.disk91.com/2020/technology/networks/migrate-helium-miner-hardware/
+
+
+##Check current running miner version
+
+```docker container inspect -f '{{.Config.Image}}' miner | awk -F: '{print $2}'```
