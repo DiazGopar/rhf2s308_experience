@@ -319,6 +319,6 @@ https://github.com/inigoflores/helium-miner-log-analyzer
 https://www.disk91.com/2020/technology/networks/migrate-helium-miner-hardware/
 
 
-##Check current running miner version
+## Check current running miner version
 
 ```docker container inspect -f '{{.Config.Image}}' miner | awk -F: '{print $2}'```
