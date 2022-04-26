@@ -307,3 +307,9 @@ So to buy some time you can run the following to disable that service.
 `sudo systemctl mask abnormal_det`
 
 My eth0 is still not working properly. Luckily I can force wlan0 to client mode (https://github.com/cuddlyconcretepangolin/rhf2s308_experience) and use it that way. Also gives you time to enable ssh for later
+
+
+
+## Log Analyser
+
+https://github.com/inigoflores/helium-miner-log-analyzer
