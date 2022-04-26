@@ -321,4 +321,9 @@ https://www.disk91.com/2020/technology/networks/migrate-helium-miner-hardware/
 
 ## Check current running miner version
 
-```docker container inspect -f '{{.Config.Image}}' miner | awk -F: '{print $2}'```
+```docker container inspect -f '{{.Config.Image}}' miner | awk -F: '{print $2}'
+```
+
+## Various
+
+https://coder.social/Wheaties466/helium_miner_scripts
