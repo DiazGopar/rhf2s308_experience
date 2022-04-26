@@ -313,3 +313,7 @@ My eth0 is still not working properly. Luckily I can force wlan0 to client mode 
 ## Log Analyser
 
 https://github.com/inigoflores/helium-miner-log-analyzer
+
+## Another way to make a snapshot
+
+https://www.disk91.com/2020/technology/networks/migrate-helium-miner-hardware/
