@@ -11,7 +11,7 @@ I am documenting this for my own use (when inevitably I need to flash the firmwa
 
 It seems that RisingHF has begun to lock us out of the devices.  The credentials in the manual (https://risinghf-official-website.oss-cn-shenzhen.aliyuncs.com/static/file/product/GX5CI5KeGI7Dl7fFvTrLrA==.pdf) are stated as username/password: `rxhf`/`risinghf`.  These work for a few moments after a firmware flash, but suddenly change moments later. A solution is to quickly create your own username and password, and give yourself sudo access.
 
-1) Flash firmware (https://risinghf-pkg.oss-cn-shenzhen.aliyuncs.com/risinghf/firmware/rhf2s308-1.0.4-20220107-helium.img.zip) or (https://risinghf-pkg.oss-cn-shenzhen.aliyuncs.com/risinghf/firmware/RHF2s308_firmware%20_1.0.7_20220125.zip)
+1) Flash firmware (https://risinghf-pkg.oss-cn-shenzhen.aliyuncs.com/risinghf/firmware/rhf2s308-1.0.4-20220107-helium.img.zip) or (https://risinghf-pkg.oss-cn-shenzhen.aliyuncs.com/risinghf/firmware/RHF2s308_firmware%20_1.0.7_20220125.zip) or (https://risinghf-resource.oss-cn-shenzhen.aliyuncs.com/RHF2S308/Firmware/rhf2s308-1.0.8-20220219-helium.7z)
 2) Unplug USB.
 3) Disconnect power.
 4) Reconnect power.
