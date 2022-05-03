@@ -327,3 +327,5 @@ https://www.disk91.com/2020/technology/networks/migrate-helium-miner-hardware/
 ## Various
 
 https://coder.social/Wheaties466/helium_miner_scripts
+
+https://github.com/helium-support/helium-miner-documentation/wiki
